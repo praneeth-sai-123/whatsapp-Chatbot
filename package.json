@@ -1,0 +1,26 @@
+{
+  "name": "giphy-whatsapp",
+  "version": "1.0.0",
+  "description": "Bot in whatsapp",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "giphy-api": "^2.0.2",
+    "tenorjs": "^1.0.8",
+    "twilio": "^3.73.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.0",
+    "@babel/core": "7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5"
+  },
+  "scripts": {
+    "start": "babel-node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Praneth",
+  "license": "ISC"
+}
